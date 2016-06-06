@@ -53,4 +53,6 @@ group :production do
  group :development do
    gem 'sqlite3'
  end
+ 
+gem 'active_model_serializers', '0.9.2'
 
