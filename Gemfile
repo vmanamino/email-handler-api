@@ -54,5 +54,5 @@ group :production do
    gem 'sqlite3'
  end
  
-gem 'active_model_serializers', '0.9.2'
+gem 'active_model_serializers', '0.9.3'
 
