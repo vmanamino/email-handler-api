@@ -54,5 +54,8 @@ group :production do
    gem 'sqlite3'
  end
  
+# JSON responses
 gem 'active_model_serializers', '0.9.3'
 
+# SENSITIVE INFO
+gem 'figaro', '1.0'
