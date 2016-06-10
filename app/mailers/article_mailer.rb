@@ -5,6 +5,6 @@ class ArticleMailer < ApplicationMailer
       headers["Message-ID"] = "<email/#{email.id}@open-news-digest>"
       headers["Content"] = "<email/#{email.title}>"
       @email = email
-      mail(to: email.address, cc: "vmanamino@gmail.com", subject: email.subject) 
+      mail(to: email.address, cc: "vmanamino@gmail.com", subject: "Open News Digest -- #{email.subject}") 
     end
 end
